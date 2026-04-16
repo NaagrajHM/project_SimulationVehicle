@@ -1,12 +1,15 @@
 # project_SimulationVehicle
 Repository for Vehicle Simulation.
 
+# 2026.04.20: branch_main_v0.0.7
+Feature: Introduce dummy bootloader.
+
 # 2026.04.03: branch_main_v0.0.6
 Feature:
       EcuM status for shutdown request implementation 
    ,  Multi-thread implementation for ethernet rx driver
    ,  De-Initialize base software modules before initiating shutdown request.
-      Service-0x10-DSC
+   ,  Service-0x10-DSC
    ,  Service-0x11-EcuReset
    ,  Common response transmit logic
    ,  De-Initialize API offered to initiate shutdown sequence.
