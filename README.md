@@ -1,6 +1,9 @@
 # project_SimulationVehicle
 Repository for Vehicle Simulation.
 
+# 2026.04.21: branch_main_v0.0.8
+Feature: Introduce power-on reset timeout in bootloader.
+
 # 2026.04.20: branch_main_v0.0.7
 Feature: Introduce dummy bootloader.
 
