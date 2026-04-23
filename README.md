@@ -1,11 +1,26 @@
 # project_SimulationVehicle
 Repository for Vehicle Simulation.
 
+# 2026.04.22: branch_main_v0.0.9
+Feature:
+      #3 Bootloader gets application-like personality.
+   ,  #4 Separated driver initialization lists for application and bootloader.
+   ,  #5 Separate schedule table for application and bootloader.
+   ,  #6 Implement state-machine to switch between application and bootloader without disconnecting ethernet.
+   ,  #7 Implement Ascii to Hex word conversion function.
+   ,  #8 System variable to hold Diagnostic Session information.
+   ,  #9 Change diagnostic session service handles default session, reprogramming session and extended diagnostic session.
+   ,  #10 ECU reset service handles hard reset (but at present it is implemented as reset to application) and ECU shutdown.
+   ,  #11 Implement ReadDataByLocalIdentifier service
+   ,  #12 Implement local identifier 0xF180 - To read bootloader software version.
+   ,  #13 Implement local identifier 0xF181 - To read application software version.
+   ,  #14 Implement local identifier 0xF186 - To read active diagnostic session.
+
 # 2026.04.21: branch_main_v0.0.8
-Feature: Introduce power-on reset timeout in bootloader.
+Feature: #2 Introduce power-on reset timeout in bootloader.
 
 # 2026.04.20: branch_main_v0.0.7
-Feature: Introduce dummy bootloader.
+Feature: #1 Introduce dummy bootloader.
 
 # 2026.04.03: branch_main_v0.0.6
 Feature:
