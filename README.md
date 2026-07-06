@@ -1,6 +1,12 @@
 # project_SimulationVehicle
 Repository for Vehicle Simulation.
 
+# 2026.07.05:
+      #32 2026.07.05: branch_main_v0.0.12 - FEATURE - Update software version numbers.
+      
+Known issue:
+      #33 2026.07.05: branch_main_v0.0.xx - BUGFIX - Software version read doesn't produce expected results.
+
 # 2026.05.05:
       #19 2026.05.05: branch_main_v0.0.11 - FEATURE - Implement (a dummy) request download service.
    ,  #20 2026.05.05: branch_main_v0.0.11 - BUGFIX - Unknown service request send negative response code - service not supported.
